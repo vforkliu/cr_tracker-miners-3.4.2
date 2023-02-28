@@ -1,0 +1,6 @@
+[ExtractorRule]
+ModulePath=libextract-gstreamer.so
+MimeTypes=audio/*;
+FallbackRdfTypes=nfo:Audio;
+Graph=tracker:Audio
+Hash=@hash@

@@ -1,0 +1,1280 @@
+# Esperanto translation for tracker-miners.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tracker-miners package.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011-2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: tracker-miners\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/tracker-miners/issues\n"
+"POT-Creation-Date: 2019-02-17 15:13+0000\n"
+"PO-Revision-Date: 2019-03-02 10:29+0200\n"
+"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
+"Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:1
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:1
+#: ../data/org.freedesktop.Tracker.Writeback.gschema.xml.h:1
+msgid "Log verbosity"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:2
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:2
+#: ../data/org.freedesktop.Tracker.Writeback.gschema.xml.h:2
+msgid "Log verbosity."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:3
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:5
+msgid "Scheduler priority when idle"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:4
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:6
+msgid ""
+"The scheduler is the kernel component that decides which runnable "
+"application will be executed by the CPU next. Each application has an "
+"associated scheduling policy and priority."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:5
+msgid "Max bytes to extract"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:6
+msgid "Maximum number of UTF-8 bytes to extract."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:7
+msgid "Max media art width"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:8
+msgid ""
+"Maximum width in pixels for any media art extracted. Anything bigger is "
+"resized. Set to -1 to disable saving media art from files. Setting to 0 sets "
+"no limit on the media art width."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:9
+msgid "Wait for FS miner to be done before extracting"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:10
+msgid ""
+"When true, tracker-extract will wait for tracker-miner-fs to be done "
+"crawling before extracting meta-data. This option is useful on constrained "
+"environment where it is important to list files as fast as possible and can "
+"wait to get meta-data later."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:3
+msgid "Initial sleep"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:4
+msgid "Initial sleep time, in seconds."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:7
+msgid "Throttle"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:8
+msgid "Indexing speed, the higher the slower."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:9
+msgid "Low disk space limit"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:10
+msgid ""
+"Disk space threshold in percent at which to pause indexing, or -1 to disable."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:11
+msgid "Crawling interval"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:12
+msgid ""
+"Interval in days to check whether the filesystem is up to date in the "
+"database. 0 forces crawling anytime, -1 forces it only after unclean "
+"shutdowns, and -2 disables it entirely."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:13
+msgid "Removable devices’ data permanence threshold"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:14
+msgid ""
+"Threshold in days after which files from removables devices will be removed "
+"from database if not mounted. 0 means never, maximum is 365."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:15
+msgid "Enable monitors"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:16
+msgid "Set to false to completely disable any file monitoring"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:17
+msgid "Enable writeback"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:18
+msgid "Set to false to completely disable any file writeback"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:19
+msgid "Index removable devices"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:20
+msgid ""
+"Set to true to enable indexing mounted directories for removable devices."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:21
+msgid "Index optical discs"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:22
+msgid ""
+"Set to true to enable indexing CDs, DVDs, and generally optical media (if "
+"removable devices are not indexed, optical discs won’t be either)"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:23
+msgid "Index when running on battery"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:24
+msgid "Set to true to index while running on battery"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:25
+msgid "Perform initial indexing when running on battery"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:26
+msgid "Set to true to index while running on battery for the first time only"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:27
+msgid "Directories to index recursively"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:28
+msgid ""
+"List of directories to index recursively, Special values include: &amp;"
+"DESKTOP, &amp;DOCUMENTS, &amp;DOWNLOAD, &amp;MUSIC, &amp;PICTURES, &amp;"
+"PUBLIC_SHARE, &amp;TEMPLATES, &amp;VIDEOS.\n"
+"\n"
+"See /etc/xdg/user-dirs.defaults and $HOME/.config/user-dirs.default"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:31
+msgid "Directories to index non-recursively"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:32
+msgid ""
+"List of directories to index without inspecting subfolders, Special values "
+"include: &amp;DESKTOP, &amp;DOCUMENTS, &amp;DOWNLOAD, &amp;MUSIC, &amp;"
+"PICTURES, &amp;PUBLIC_SHARE, &amp;TEMPLATES, &amp;VIDEOS.\n"
+"\n"
+"See /etc/xdg/user-dirs.defaults and $HOME/.config/user-dirs.default"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:35
+msgid "Ignored files"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:36
+msgid "List of file patterns to avoid"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:37
+msgid "Ignored directories"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:38
+msgid "List of directories to avoid"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:39
+msgid "Ignored directories with content"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:40
+msgid "Avoid any directory containing a file blacklisted here"
+msgstr ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:90
+msgid "unknown time"
+msgstr "nekonata horo"
+
+#: ../src/libtracker-miners-common/tracker-utils.c:104
+#: ../src/libtracker-miners-common/tracker-utils.c:155
+msgid "less than one second"
+msgstr "malpli ol unu sekundo"
+
+#. Translators: this is %d days
+#: ../src/libtracker-miners-common/tracker-utils.c:119
+#, c-format
+msgid " %dd"
+msgstr " %dd"
+
+#. Translators: this is %2.2d hours
+#: ../src/libtracker-miners-common/tracker-utils.c:123
+#, c-format
+msgid " %2.2dh"
+msgstr " %2.2dh"
+
+#. Translators: this is %2.2d minutes
+#: ../src/libtracker-miners-common/tracker-utils.c:127
+#, c-format
+msgid " %2.2dm"
+msgstr " %2.2dm"
+
+#. Translators: this is %2.2d seconds
+#: ../src/libtracker-miners-common/tracker-utils.c:131
+#, c-format
+msgid " %2.2ds"
+msgstr " %2.2ds"
+
+#: ../src/libtracker-miners-common/tracker-utils.c:135
+#, c-format
+msgid " %d day"
+msgid_plural " %d days"
+msgstr[0] " %d tago"
+msgstr[1] " %d tagoj"
+
+#: ../src/libtracker-miners-common/tracker-utils.c:139
+#, c-format
+msgid " %2.2d hour"
+msgid_plural " %2.2d hours"
+msgstr[0] " %2.2d horo"
+msgstr[1] " %2.2d horoj"
+
+#: ../src/libtracker-miners-common/tracker-utils.c:143
+#, c-format
+msgid " %2.2d minute"
+msgid_plural " %2.2d minutes"
+msgstr[0] " %2.2d minuto"
+msgstr[1] " %2.2d minutoj"
+
+#: ../src/libtracker-miners-common/tracker-utils.c:147
+#, c-format
+msgid " %2.2d second"
+msgid_plural " %2.2d seconds"
+msgstr[0] " %2.2d sekundo"
+msgstr[1] " %2.2d sekundoj"
+
+#: ../src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service.in.in.h:1
+msgid "File System"
+msgstr "Dosiersistemo"
+
+#: ../src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service.in.in.h:2
+msgid "File system data miner"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:73 ../src/miners/rss/tracker-main.c:43
+#: ../src/tracker-writeback/tracker-main.c:55
+msgid ""
+"Logging, 0 = errors only, 1 = minimal, 2 = detailed and 3 = debug (default=0)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:78
+msgid "Initial sleep time in seconds, 0->1000 (default=15)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:83
+msgid "Runs until all configured locations are indexed and then exits"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:87
+msgid "Checks if FILE is eligible for being mined based on configuration"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:88 ../src/tracker-extract/tracker-main.c:88
+msgid "FILE"
+msgstr "DOSIERO"
+
+#: ../src/miners/fs/tracker-main.c:91 ../src/miners/rss/tracker-main.c:57
+#: ../src/tracker-extract/tracker-main.c:102
+msgid "Runs for a specific domain ontology"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:95 ../src/tracker-extract/tracker-main.c:106
+#: ../src/tracker-writeback/tracker-main.c:51
+msgid "Displays version information"
+msgstr "Montras versio-informon"
+
+#: ../src/miners/fs/tracker-main.c:539
+#, c-format
+msgid "Data object “%s” currently exists"
+msgstr "Datuma objekto “%s” nun ekzistas"
+
+#: ../src/miners/fs/tracker-main.c:540
+#, c-format
+msgid "Data object “%s” currently does not exist"
+msgstr "Datuma objekto “%s” nun ne ekzistas"
+
+#: ../src/miners/fs/tracker-main.c:555
+msgid "Directory is eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:556
+msgid "Directory is NOT eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:576
+msgid "Directory is eligible to be mined (based on contents)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:577
+msgid "Directory is NOT eligible to be mined (based on contents)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:624
+msgid "Directory is eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:625
+msgid "Directory is NOT eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:629
+msgid "File is eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:630
+msgid "File is NOT eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:634
+msgid "File or Directory is eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:635
+msgid "File or Directory is NOT eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:650
+msgid "File is eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:651
+msgid "File is NOT eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:660
+msgid "Would be indexed"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:661 ../src/miners/fs/tracker-main.c:663
+msgid "Yes"
+msgstr "Jes"
+
+#: ../src/miners/fs/tracker-main.c:661 ../src/miners/fs/tracker-main.c:663
+msgid "No"
+msgstr "Ne"
+
+#: ../src/miners/fs/tracker-main.c:662
+msgid "Would be monitored"
+msgstr ""
+
+#. Translators: this messagge will apper immediately after the
+#. * usage string - Usage: COMMAND <THIS_MESSAGE>
+#.
+#: ../src/miners/fs/tracker-main.c:793
+msgid "— start the tracker indexer"
+msgstr ""
+
+#: ../src/miners/fs/tracker-miner-fs.desktop.in.in.h:1
+msgid "Tracker File System Miner"
+msgstr ""
+
+#: ../src/miners/fs/tracker-miner-fs.desktop.in.in.h:2
+msgid "Crawls and processes files on the file system"
+msgstr ""
+
+#: ../src/miners/rss/org.freedesktop.Tracker1.Miner.RSS.service.in.in.h:1
+msgid "RSS/ATOM Feeds"
+msgstr "RSS/ATOM-fluoj"
+
+#: ../src/miners/rss/org.freedesktop.Tracker1.Miner.RSS.service.in.in.h:2
+msgid "Fetch RSS/ATOM Feeds"
+msgstr ""
+
+#. Translators: this is a "feed" as in RSS
+#: ../src/miners/rss/tracker-main.c:49
+msgid "Add feed"
+msgstr "Aldoni fluon"
+
+#: ../src/miners/rss/tracker-main.c:50
+msgid "URL"
+msgstr "Retadreso"
+
+#: ../src/miners/rss/tracker-main.c:53
+msgid "Title to use (must be used with --add-feed)"
+msgstr ""
+
+#. Translators: this messagge will apper immediately after the
+#. * usage string - Usage: COMMAND <THIS_MESSAGE>
+#.
+#: ../src/miners/rss/tracker-main.c:94
+msgid "— start the feeds indexer"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:128
+msgid "Could not establish a connection to Tracker"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:129
+msgid "No error given"
+msgstr "Neniu eraro donita"
+
+#: ../src/miners/rss/tracker-main.c:156
+msgid "Could not add feed"
+msgstr "Ne eblis aldoni la fluon"
+
+#: ../src/miners/rss/tracker-miner-rss.desktop.in.in.h:1
+msgid "Tracker RSS/ATOM Feeds Miner"
+msgstr ""
+
+#: ../src/miners/rss/tracker-miner-rss.desktop.in.in.h:2
+msgid "Fetch RSS/ATOM feeds"
+msgstr ""
+
+#: ../src/tracker-extract/org.freedesktop.Tracker1.Miner.Extract.service.in.in.h:1
+msgid "Extractor"
+msgstr ""
+
+#: ../src/tracker-extract/org.freedesktop.Tracker1.Miner.Extract.service.in.in.h:2
+msgid "Metadata extractor"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.c:685
+msgid "Metadata extraction failed"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.c:765
+msgid "No metadata or extractor modules found to handle this file"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:82
+msgid ""
+"Logging, 0 = errors only, 1 = minimal, 2 = detailed and 3 = debug (default = "
+"0)"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:87
+msgid "File to extract metadata for"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:91
+msgid "MIME type for file (if not provided, this will be guessed)"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:92
+msgid "MIME"
+msgstr "MIME"
+
+#: ../src/tracker-extract/tracker-main.c:95
+msgid "Force a module to be used for extraction (e.g. “foo” for “foo.so”)"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:96
+msgid "MODULE"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:98
+msgid "Output results format: “sparql”, “turtle” or “json-ld”"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:99
+msgid "FORMAT"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:272
+#, c-format
+msgid "Unsupported serialization format “%s”\n"
+msgstr ""
+
+#. Translators: this message will appear immediately after the
+#. usage string - Usage: COMMAND [OPTION]... <THIS_MESSAGE>
+#: ../src/tracker-extract/tracker-main.c:362
+msgid "— Extract file meta data"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:377
+msgid "Filename and mime type must be provided together"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.desktop.in.in.h:1
+msgid "Tracker Metadata Extractor"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.desktop.in.in.h:2
+msgid "Extracts metadata from local files"
+msgstr ""
+
+#: ../src/tracker-writeback/tracker-main.c:62
+msgid "Disable shutting down after 30 seconds of inactivity"
+msgstr ""
+
+#. Translators: this message will appear immediately after the
+#. * usage string - Usage: COMMAND <THIS_MESSAGE>
+#.
+#: ../src/tracker-writeback/tracker-main.c:98
+msgid "— start the tracker writeback service"
+msgstr ""
+
+#~ msgid "By usage"
+#~ msgstr "Laŭ uzado"
+
+#~ msgid "Ignore numbers"
+#~ msgstr "Ihnori numerojn"
+
+#~ msgid "Applications"
+#~ msgstr "Aplikaĵoj"
+
+#~ msgid "Emails"
+#~ msgstr "Retpoŝtmesaĝoj"
+
+#~ msgid "Tracker"
+#~ msgstr "Ŝanĝospurilo"
+
+#~ msgid "Tags"
+#~ msgstr "Markoj"
+
+#, fuzzy
+#~ msgid "Desktop Search"
+#~ msgstr "Labortabla serĉo"
+
+#~ msgid "_Search:"
+#~ msgstr "_Serĉi:"
+
+#~ msgid "Add tag"
+#~ msgstr "Aldoni markon"
+
+#~ msgid "Print version"
+#~ msgstr "Ekigi version"
+
+#~ msgid "Tag"
+#~ msgid_plural "Tags"
+#~ msgstr[0] "Marko"
+#~ msgstr[1] "Markoj"
+
+#~ msgid "Contact"
+#~ msgid_plural "Contacts"
+#~ msgstr[0] "Kontakto"
+#~ msgstr[1] "Kontaktoj"
+
+#~ msgid "Audio"
+#~ msgid_plural "Audios"
+#~ msgstr[0] "Sono"
+#~ msgstr[1] "Sonoj"
+
+#~ msgid "Document"
+#~ msgid_plural "Documents"
+#~ msgstr[0] "Dokumento"
+#~ msgstr[1] "Dokumentoj"
+
+#~ msgid "File"
+#~ msgid_plural "Files"
+#~ msgstr[0] "Dosiero"
+#~ msgstr[1] "Dosieroj"
+
+#~ msgid "Folder"
+#~ msgid_plural "Folders"
+#~ msgstr[0] "Dosierujo"
+#~ msgstr[1] "Dosierujoj"
+
+#~ msgid "Image"
+#~ msgid_plural "Images"
+#~ msgstr[0] "Bildo"
+#~ msgstr[1] "Bildoj"
+
+#~ msgid "Application"
+#~ msgid_plural "Applications"
+#~ msgstr[0] "Aplikaĵo"
+#~ msgstr[1] "Aplikaĵoj"
+
+#~ msgid "Video"
+#~ msgid_plural "Videos"
+#~ msgstr[0] "Video"
+#~ msgstr[1] "Videoj"
+
+#~ msgid "Album"
+#~ msgid_plural "Albums"
+#~ msgstr[0] "Albumo"
+#~ msgstr[1] "Albumoj"
+
+#~ msgid "Photo"
+#~ msgid_plural "Photos"
+#~ msgstr[0] "Fotaĵo"
+#~ msgstr[1] "Fotaĵoj"
+
+#~ msgid "Playlist"
+#~ msgid_plural "Playlists"
+#~ msgstr[0] "Ludlisto"
+#~ msgstr[1] "Ludlistoj"
+
+#~ msgid "Email"
+#~ msgid_plural "Emails"
+#~ msgstr[0] "Retpoŝto"
+#~ msgstr[1] "Retpoŝtoj"
+
+#~ msgid "Bookmark"
+#~ msgid_plural "Bookmarks"
+#~ msgstr[0] "Legosigno"
+#~ msgstr[1] "Legosignoj"
+
+#~ msgid "Name"
+#~ msgstr "Nomo"
+
+#~ msgid "Could not update tags"
+#~ msgstr "Ne eblis ĝisdatigi markon"
+
+#~ msgid "Could not remove tag"
+#~ msgstr "Ne eblis forigi markon"
+
+#~ msgid "Could not add tag"
+#~ msgstr "Ne eblis aldoni markon"
+
+#~ msgid "Could not update tags for file"
+#~ msgstr "Ne eblis ĝisdatigi markojn por dosiero"
+
+#~ msgid "%x"
+#~ msgstr "%x"
+
+#~ msgid "Today"
+#~ msgstr "Hodiaŭ"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Morgaŭ"
+
+#~ msgid "Yesterday"
+#~ msgstr "Hieraŭ"
+
+#~ msgid "%ld day from now"
+#~ msgid_plural "%ld days from now"
+#~ msgstr[0] "%ld tago de nun"
+#~ msgstr[1] "%ld tagoj de nun"
+
+#~ msgid "%ld day ago"
+#~ msgid_plural "%ld days ago"
+#~ msgstr[0] "Antaŭ %ld tago"
+#~ msgstr[1] "Antaŭ %ld tagoj"
+
+#~ msgid "Less than one second"
+#~ msgstr "Malpli ol unu sekundo"
+
+#~ msgid "Size"
+#~ msgstr "Grando"
+
+#~ msgid "Music"
+#~ msgstr "Muziko"
+
+#~ msgid "Images"
+#~ msgstr "Bildoj"
+
+#~ msgid "Videos"
+#~ msgstr "Videoj"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumentoj"
+
+#~ msgid "Mail"
+#~ msgstr "Retpoŝto"
+
+#~ msgid "Folders"
+#~ msgstr "Dosierujoj"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Legosignoj"
+
+#~ msgid "Items"
+#~ msgstr "Elementoj"
+
+#~ msgid "Loading…"
+#~ msgstr "Ŝargante…"
+
+#~| msgid "Pages"
+#~ msgid "%d Page"
+#~ msgid_plural "%d Pages"
+#~ msgstr[0] "%d paĝo"
+#~ msgstr[1] "%d paĝoj"
+
+#~ msgid "_Show Parent Directory"
+#~ msgstr "_Montri gepatran dosierujon"
+
+#~ msgid "_Tags…"
+#~ msgstr "_Markoj…"
+
+#~ msgid "Locations"
+#~ msgstr "Lokoj"
+
+#~ msgid "Directories"
+#~ msgstr "Dosierujoj"
+
+#~ msgid "Files"
+#~ msgstr "Dosieroj"
+
+#~ msgid "_Delay"
+#~ msgstr "_Prokrasto"
+
+#~ msgid "seconds"
+#~ msgstr "sekundoj"
+
+#~ msgid "System"
+#~ msgstr "Sistemo"
+
+#~ msgid "Directory"
+#~ msgstr "Dosierujo"
+
+#~ msgid "Do nothing"
+#~ msgstr "Fari nenion"
+
+#~| msgid "Tracker"
+#~ msgid "Restart Tracker"
+#~ msgstr "Restartigi ŝanĝospurilo"
+
+#~ msgid "Disabled"
+#~ msgstr "Elŝaltite"
+
+#~ msgid "Enter value"
+#~ msgstr "Enigi valoron"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Nuligi"
+
+#~ msgid "_OK"
+#~ msgstr "_Akcepti"
+
+#~ msgid "Select directory"
+#~ msgstr "Elekti dosierujon"
+
+#~ msgid "Unavailable"
+#~ msgstr "Nedisponeble"
+
+#~ msgid "Initializing"
+#~ msgstr "Pravalorizas"
+
+#~ msgid "Paused"
+#~ msgstr "Paŭzite"
+
+#~ msgid "Idle"
+#~ msgstr "Senokupe"
+
+#~ msgid "REASON"
+#~ msgstr "KIALO"
+
+#~ msgid "LEVEL"
+#~ msgstr "NIVELO"
+
+#~ msgid "%s remaining"
+#~ msgstr "%s restas"
+
+#~ msgid "PAUSED"
+#~ msgstr "PAŬZIGITA"
+
+#~| msgid "Could not run update"
+#~ msgid "Could not run SPARQL query"
+#~ msgstr "Ne eblis ruli SPARQL-informpeton"
+
+#~ msgid "Done"
+#~ msgstr "Farite"
+
+#~ msgid "Reason"
+#~ msgstr "Kialo"
+
+#~| msgid "Could not get all tags"
+#~ msgid "Could not get SPARQL connection"
+#~ msgstr "Ne eblis akiri SPARQL-konekton"
+
+#, fuzzy
+#~| msgid "Could not open '%s'"
+#~ msgid "Could not get display name for miner '%s'"
+#~ msgstr "Ne eblis akiri montro-nomon por X '%s'"
+
+#~| msgid "Could not get all tags"
+#~ msgid "Could not get D-Bus connection"
+#~ msgstr "Ne eblis akiri D-Bus-konekton"
+
+#~ msgid "failed to exec '%s': %s"
+#~ msgstr "malsukcesita ruli na '%s': %s"
+
+#~| msgid "Could not update tags"
+#~ msgid "Could not backup database"
+#~ msgstr "Ne eblis savkopii datumbazon"
+
+#~ msgid "Results"
+#~ msgstr "Rezultoj"
+
+#~| msgid "Could not read file"
+#~ msgid "Could not stat() file"
+#~ msgstr "Ne eblis stat() dosieron"
+
+#~ msgid "Could not open '%s'"
+#~ msgstr "Ne eblis malfermi na '%s'"
+
+#~| msgid "Could not open '%s'"
+#~ msgid "Could not terminate process %d - '%s'"
+#~ msgstr "Ne eblis fini procezon %d - '%s'"
+
+#~| msgid "Could not open '%s'"
+#~ msgid "Could not kill process %d - '%s'"
+#~ msgstr "Ne eblis mortigi procezon %d - '%s'"
+
+#~ msgid "Search for files"
+#~ msgstr "Serĉi dosierojn"
+
+#~ msgid "Search for folders"
+#~ msgstr "Serĉi dosierujojn"
+
+#~ msgid "Search for music files"
+#~ msgstr "Serĉi muzik-dosierojn"
+
+#~ msgid "Search for music albums (--all has no effect on this)"
+#~ msgstr "Serĉi muzik-albumojn (--all ne havas efekton je ĝi)"
+
+#~ msgid "Search for music artists (--all has no effect on this)"
+#~ msgstr "Serĉi muzik-artistojn (--all ne havas efekton je ĝi)"
+
+#~ msgid "Search for image files"
+#~ msgstr "Serĉi bild-dosierojn"
+
+#~ msgid "Search for video files"
+#~ msgstr "Serĉi video-dosierojn"
+
+#~ msgid "Search for document files"
+#~ msgstr "Serĉi dokument-dosierojn"
+
+#~ msgid "Search for emails"
+#~ msgstr "Serĉi retpoŝt-mesaĝojn"
+
+#~ msgid "Search for contacts"
+#~ msgstr "Serĉi kontaktulojn"
+
+#~ msgid "Search for software (--all has no effect on this)"
+#~ msgstr "Serĉi programaron (--all ne havas efekton je ĝi)"
+
+#~ msgid "Search for software categories (--all has no effect on this)"
+#~ msgstr "Serĉi programar-kategoriojn (--all ne havas efekton je ĝi)"
+
+#, fuzzy
+#~ msgid "Search for bookmarks (--all has no effect on this)"
+#~ msgstr "Serĉi legosignojn (--all ne havas efekton je ĝi)"
+
+#~ msgid "EXPRESSION"
+#~ msgstr "ESPRIMO"
+
+#~ msgid "Could not get search results"
+#~ msgstr "Ne eblis akiri serĉ-rezultojn"
+
+#~ msgid "No contacts were found"
+#~ msgstr "Neniuj kontaktuloj estas trovitaj"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontaktuloj"
+
+#~ msgid "No name"
+#~ msgstr "Neniu nomo"
+
+#~ msgid "No E-mail address"
+#~ msgstr "Neniu retpoŝtadreso"
+
+#~ msgid "No emails were found"
+#~ msgstr "Neniuj retpoŝt-mesaĝoj estas trovitaj"
+
+#~ msgid "No files were found"
+#~ msgstr "Neniuj dosieroj estas trovitaj"
+
+#~ msgid "No artists were found"
+#~ msgstr "Neniuj artistoj estas trovitaj"
+
+#~ msgid "Artists"
+#~ msgstr "Artistoj"
+
+#~ msgid "No music was found"
+#~ msgstr "Neniu muziko estas trovita"
+
+#~ msgid "Albums"
+#~ msgstr "Albumoj"
+
+#~ msgid "No feeds were found"
+#~ msgstr "Neniuj fluoj estas trovitaj"
+
+#~ msgid "Feeds"
+#~ msgstr "Fluoj"
+
+#~ msgid "No software was found"
+#~ msgstr "Neniu programaro estas trovita"
+
+#~ msgid "Software"
+#~ msgstr "Programaro"
+
+#~ msgid "No software categories were found"
+#~ msgstr "Neniuj programar-kategorioj estas trovitaj"
+
+#~ msgid "Software Categories"
+#~ msgstr "Programar-kategorioj"
+
+#~ msgid "SPARQL query"
+#~ msgstr "SPARQL-informpeto"
+
+#~ msgid "SPARQL"
+#~ msgstr "SPARQL"
+
+#~ msgid "CLASS"
+#~ msgstr "KLASO"
+
+#~ msgid "PROPERTY"
+#~ msgstr "ATRIBUTO"
+
+#~ msgid "CLASS/PROPERTY"
+#~ msgstr "KLASO/ATRIBUTO"
+
+#~ msgid "None"
+#~ msgstr "Neniu"
+
+#, fuzzy
+#~| msgid "Could not update tags for file"
+#~ msgid "Could not create tree: subclass query failed"
+#~ msgstr "Ne eblis kreii arbon: subklasa informpeto malsukcesis"
+
+#, fuzzy
+#~| msgid "Could not update tags for file"
+#~ msgid "Could not create tree: class properties query failed"
+#~ msgstr "Ne eblis kreii arbon: klas-atributa informpeto malsukcesis"
+
+#~ msgid "Classes"
+#~ msgstr "Klasoj"
+
+#~ msgid "Prefixes"
+#~ msgstr "Prefiksoj"
+
+#~ msgid "Properties"
+#~ msgstr "Atributoj"
+
+#~ msgid "Indexes"
+#~ msgstr "Indeksoj"
+
+#~ msgid "Could not search classes"
+#~ msgstr "Ne eblis serĉi klasojn"
+
+#~ msgid "Could not read file"
+#~ msgstr "Ne eblis legi dosieron"
+
+#~ msgid "Could not run update"
+#~ msgstr "Ne eblis ruli ĝisdatigon"
+
+#~ msgid "Could not run query"
+#~ msgstr "Ne eblis ruli informpeton"
+
+#~ msgid "Statistics:"
+#~ msgstr "Statistikoj:"
+
+#~| msgid "Print version"
+#~ msgid "Version"
+#~ msgstr "Versio"
+
+#~ msgid "Configuration"
+#~ msgstr "Agordo"
+
+#~ msgid "States"
+#~ msgstr "Statoj"
+
+#~ msgid "No connection available"
+#~ msgstr "Neniu konekto estas disponebla"
+
+#~| msgid "Could not get all tags"
+#~ msgid "Could not get statistics"
+#~ msgstr "Ne eblis akiri statistikojn"
+
+#~ msgid "No statistics were available"
+#~ msgstr "Neniuj statistikoj estas disponeblaj"
+
+#~| msgid "Could not get all tags"
+#~ msgid "Could not get basic status for Tracker"
+#~ msgstr "Ne eblis akiri bazan staton de Ŝanĝospurilo"
+
+#~ msgid "Currently indexed"
+#~ msgstr "Nuntempe indeksita"
+
+#~ msgid "FILTER"
+#~ msgstr "FILTRILO"
+
+#~ msgid ""
+#~ "Add a tag (if FILEs are omitted, TAG is not associated with any files)"
+#~ msgstr ""
+#~ "Aldoni etikedon (se DOSIEROj estas preterlasita, ETIKEDO ne estas "
+#~ "asociita al ajnaj dosieroj)"
+
+#~ msgid "TAG"
+#~ msgstr "MARKO"
+
+#~ msgid "Delete a tag (if FILEs are omitted, TAG is removed for all files)"
+#~ msgstr ""
+#~ "Forigi etikedon (se DOSIEROj estas preterlasita, ETIKEDO estas forigita "
+#~ "por ĉiuj dosieroj)"
+
+#~ msgid "STRING"
+#~ msgstr "SIGNOĈENO"
+
+#~ msgid "FILE…"
+#~ msgstr "DOSIERO…"
+
+#~ msgid "FILE [FILE…]"
+#~ msgstr "DOSIERO [DOSIERO…]"
+
+#~| msgid "Could not get all tags"
+#~ msgid "Could not get all tags in the database"
+#~ msgstr "Ne eblis akiri ĉiujn markojn de la datumbazo"
+
+#, fuzzy
+#~| msgid "Could not get all tags"
+#~ msgid "Could not get files for matching tags"
+#~ msgstr "Ne eblis akiri dosierojn"
+
+#~ msgid "Could not get all tags"
+#~ msgstr "Ne eblis akiri ĉiujn markojn"
+
+#~ msgid "Could not add tag to files"
+#~ msgstr "Ne eblis aldoni markon al dosieroj"
+
+#~ msgid "Tagged"
+#~ msgstr "Markite"
+
+#~ msgid "Untagged"
+#~ msgstr "Nemarkite"
+
+#~ msgid "Saved queries"
+#~ msgstr "Konservitaj demandpetoj"
+
+#~ msgid "Tags..."
+#~ msgstr "Markoj..."
+
+#~ msgid "Day(s)"
+#~ msgstr "Tago(j)"
+
+#~ msgid "Directories:"
+#~ msgstr "Dosierujoj:"
+
+#~ msgid "Faster"
+#~ msgstr "Pli rapide"
+
+#~ msgid "General"
+#~ msgstr "Ĝenerale"
+
+#~ msgid "Slower"
+#~ msgstr "Pli malrapide"
+
+#~ msgid "Other"
+#~ msgstr "Alia"
+
+#~ msgid "Fonts"
+#~ msgstr "Tiparoj"
+
+#~ msgid "Archives"
+#~ msgstr "Arkivoj"
+
+#~ msgid "Links"
+#~ msgstr "Ligiloj"
+
+#~ msgid "Category"
+#~ msgstr "Kategorio"
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "_About"
+#~ msgstr "_Pri"
+
+#~ msgid "512"
+#~ msgstr "512"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Email from %s"
+#~ msgstr "Retpoŝto de %s"
+
+#~ msgid ""
+#~ "Open folder %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Malfermi dosierujon %s\n"
+#~ "%s"
+
+#~ msgid "with"
+#~ msgstr "kun"
+
+#~ msgid "in channel"
+#~ msgstr "en kanalo"
+
+#~ msgid "%.1f MB"
+#~ msgstr "%.1f MB"
+
+#~ msgid "%.1f GB"
+#~ msgstr "%.1f GB"
+
+#~ msgid "Unknown"
+#~ msgstr "Nekonate"
+
+#~ msgid "<b>Animation</b>"
+#~ msgstr "<b>Animacio</b>"
+
+#~ msgid "<b>Visibility</b>"
+#~ msgstr "<b>Videbleco</b>"
+
+#~ msgid "_Off"
+#~ msgstr "_Elŝaltite"
+
+#~ msgid "by system"
+#~ msgstr "de la sistemo"
+
+#~ msgid "_Language:"
+#~ msgstr "_Lingvo:"
+
+#~ msgid "kB"
+#~ msgstr "kB"
+
+#~ msgid "Could not open help document."
+#~ msgstr "Ne eblas malfermi la helpdokumenton."
+
+#~ msgid "Are you sure you want to open %d document?"
+#~ msgid_plural "Are you sure you want to open %d documents?"
+#~ msgstr[0] "Ĉu vi certe volas malfermi %d dokumenton?"
+#~ msgstr[1] "Ĉu vi certe volas malfermi %d dokumentojn?"
+
+#~ msgid "This will open %d separate window."
+#~ msgid_plural "This will open %d separate windows."
+#~ msgstr[0] "Ĉi tio malfermos %d apartan fenestron."
+#~ msgstr[1] "Ĉi tio malfermos %d apartajn fenestrojn."
+
+#~ msgid "Could not open document \"%s\"."
+#~ msgstr "Ne eblis malfermi la dokumenton \"%s\"."
+
+#~ msgid "Are you sure you want to open %d folder?"
+#~ msgid_plural "Are you sure you want to open %d folders?"
+#~ msgstr[0] "Ĉu vi certe volas malfermi %d dosierujon?"
+#~ msgstr[1] "Ĉu vi certe volas malfermi %d dosierujojn?"
+
+#~ msgid "Could not move \"%s\" to trash."
+#~ msgstr "Ne eblis movi \"%s\" rubujen."
+
+#~ msgid "Could not save document."
+#~ msgstr "Ne eblis konservi dokumenton."
+
+#~ msgid "If you replace an existing file, its contents will be overwritten."
+#~ msgstr ""
+#~ "Se vi anstataŭigas ekzistantan dosieron, ties enhavo estos anstataŭata."
+
+#~ msgid "_Replace"
+#~ msgstr "_Anstataŭigi"
+
+#~ msgid ""
+#~ "GConf error:\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "GConf-eraro:\n"
+#~ "  %s"
+
+#~ msgid "today at %-I:%M %p"
+#~ msgstr "hodiaŭ je la %-I:%M %p"
+
+#~ msgid "yesterday at %-I:%M %p"
+#~ msgstr "hieraŭ je la %-I:%M %p"
+
+#~ msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+#~ msgstr "%A, %B %-d %Y je la %-I:%M:%S %p"
+
+#~ msgid "SERVICE"
+#~ msgstr "SERVO"
+
+#~ msgid "All Files"
+#~ msgstr "Ĉiuj dosieroj"
+
+#~ msgid "Text"
+#~ msgstr "Teksto"
+
+#~ msgid "Development"
+#~ msgstr "Evoluigado"
+
+#~ msgid "_Open"
+#~ msgstr "_Malfermi"
+
+#~ msgid "O_pen Folder"
+#~ msgstr "M_alfermi dosierujon"
+
+#~ msgid "Mo_ve to Trash"
+#~ msgstr "Mo_vi rubujen"
+
+#~ msgid "Error"
+#~ msgstr "Eraro"
+
+#~ msgid "List View"
+#~ msgstr "Lista vido"
+
+#~ msgid "Icon"
+#~ msgstr "Piktogramo"
+
+#~ msgid "%d - %d of %d items"
+#~ msgstr "%d - %d de %d elementoj"
+
+#~ msgid "%d item"
+#~ msgid_plural "%d items"
+#~ msgstr[0] "%d elemento"
+#~ msgstr[1] "%d elementoj"
+
+#~ msgid "NUMBER"
+#~ msgstr "NUMERO"
+
+#~ msgid "FILE..."
+#~ msgstr "DOSIERO..."
+
+#~ msgid "Filename"
+#~ msgstr "Dosiernomo"
+
+#~ msgid "PATH"
+#~ msgstr "VOJO"
+
+#~ msgid "Fields are missing"
+#~ msgstr "Kampoj mankas"
+
+#~ msgid "Path"
+#~ msgstr "Vojo"
+
+#~ msgid "Service"
+#~ msgstr "Servo"
+
+#~ msgid "MIME-type"
+#~ msgstr "MIME-tipo"
+
+#~ msgid "no"
+#~ msgstr "ne"
+
+#~ msgid "Found"
+#~ msgstr "Trovis"
+
+#~ msgid "Required fields"
+#~ msgstr "Bezonataj kampoj"
+
+#~ msgid "album or artist"
+#~ msgstr "albumo aŭ artisto"
